@@ -1,3 +1,3 @@
 # Demo-login-page
 
-<img src = "images/Screenshot.JPG" width="100">
+<img src = "images/Screenshot.jpg" width="300">
