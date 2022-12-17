@@ -17,6 +17,12 @@
 
     <string name="editText2Hint">Second Number</string>
 
+    <string name="toastPhoneNumberMissing">Phone Number is required</string>
+
+    <string name="toastPasswordMissing">PIN is required</string>
+
+    <string name="exceptionHandlingToast">Field are required</string>
+
     <string name="heading">Login System</string>
 
     <string name="slogan">Success is a journey, not a destination</string>

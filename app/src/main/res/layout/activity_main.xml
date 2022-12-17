@@ -9,12 +9,13 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:orientation="vertical"
         tools:context=".MainActivity">
 
 
+<!--        Lottie Animation-->
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottieAnimationLogin"
             android:layout_width="300dp"
@@ -22,7 +23,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:lottie_autoPlay="true"
-            app:lottie_loop="true"
+            app:lottie_loop="false"
             app:lottie_rawRes="@raw/login_animation"
             tools:ignore="MissingConstraints">
 
@@ -134,20 +135,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:width="200dp"
+            android:width="320dp"
             android:height="60dp"
             android:fontFamily="@font/manrope_bold"
             android:text="@string/login"
             android:textColor="@color/white"
             app:backgroundTint="@color/teal_700"
             app:cornerRadius="50dp"
+            app:rippleColor="@color/teal_900"
+            app:strokeColor="@color/teal_700"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/password"
-            app:layout_constraintVertical_bias="0.0"
-            app:strokeColor="@color/teal_700" />"
-        />
+            app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
