@@ -142,7 +142,7 @@
             android:textColor="@color/md_theme_light_onPrimary"
             app:backgroundTint="@color/md_theme_light_primary"
             app:cornerRadius="50dp"
-            app:rippleColor="@color/md_theme_light_primaryContainer"
+            app:rippleColor="@color/md_theme_light_inversePrimary"
             app:strokeColor="@color/md_theme_light_primary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
